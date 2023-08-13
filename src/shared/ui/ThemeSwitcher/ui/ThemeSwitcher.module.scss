@@ -9,11 +9,11 @@
 }
 
 .light{
-    border: 1px solid #000000;
+    border: 1px solid #000;
 }
 
 .dark{
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFF;
 }
 
 .sliderWrapper{
@@ -22,7 +22,7 @@
     height: 22px;
     border-radius: 11px;
     align-items: center;
-    padding: 0px 2px;
+    padding: 0 2px;
 }
 
 .sliderDot{
@@ -33,11 +33,11 @@
 }
 
 .sliderDot.light{
-    background: #000000;
+    background: #000;
     margin-left: 28px;
 }
 
 .sliderDot.dark{
-    background: #FFFFFF;
-    margin-left: 0px;   
+    background: #FFF;
+    margin-left: 0;   
 }

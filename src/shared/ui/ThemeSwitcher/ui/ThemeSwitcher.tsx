@@ -13,7 +13,7 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
   const { theme, toggleTheme } = useTheme()
 
   return (
-      <button className={classNames(cls.ThemeSwitcher, {}, [className, cls[theme]])} onClick={toggleTheme}>
+      <button className={classNames(cls.ThemeSwitcher, {}, [className as string, cls[theme]])} onClick={toggleTheme}>
           <ThemeDark fill={theme === Theme.LIGHT ? '#000' : '#FFF'} />
           <div className={classNames(cls.sliderWrapper, {}, [cls[theme]])}>
               <div className={classNames(cls.sliderDot, {}, [cls[theme]])}></div>
